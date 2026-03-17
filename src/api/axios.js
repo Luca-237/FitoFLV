@@ -2,7 +2,7 @@ import { defaults } from 'autoprefixer';
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://fitoflv-backend.onrender.com/api',
 });
 
 export default api;
