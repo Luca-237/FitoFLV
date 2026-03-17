@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Paleta Windows 95/XP */
+  --win-bg: #008080;
+  --win-silver: #c0c0c0;
+  --win-blue-title: #000080;
+  --win-white: #ffffff;
+  --win-gray-dark: #808080;
+  --win-text: #000000;
+
+  font-family: "Tahoma", "MS Sans Serif", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--win-bg);
+  color: var(--win-text);
+  image-rendering: pixelated;
+}
+
+/* Reset de estilos para el contenedor de Vite */
+#root {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  border: none !important;
+  text-align: left !important;
+  display: block !important;
+}
+
+/* Scrollbar estilo retro */
+::-webkit-scrollbar {
+  width: 16px;
+  background: var(--win-silver);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--win-silver);
+  box-shadow: inset 1px 1px #dfdfdf, inset -1px -1px #808080;
+  border: 1px solid #000;
+}
