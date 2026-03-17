@@ -12,7 +12,7 @@ export default function History() {
     <div className="w-full max-w-4xl mx-auto bg-white border-2 border-winDarkGray shadow-win-in h-[75vh] flex flex-col">
       <div className="bg-winLight px-2 py-1 flex items-center gap-2 border-b border-winDarkGray text-[11px]">
         <img src="https://win98icons.alexmeub.com/icons/png/history-0.png" className="w-5 h-5" alt="hist" />
-        <span className="font-bold">Documentos Recientes (Historial)</span>
+        <span className="font-bold">Historial</span>
       </div>
       
       {/* Cabecera de la tabla estilo Windows Explorer */}
