@@ -18,7 +18,7 @@ export default function Home() {
       <div className="bg-winGray shadow-win-out p-1 mb-6 inline-block">
         <h2 className="bg-winBlue text-white font-bold px-2 py-1 text-lg flex items-center gap-2">
           <img src="https://win98icons.alexmeub.com/icons/png/directory_open_file_mydocs-4.png" alt="folder" className="w-5 h-5" />
-          C:\Users\Luca\Animes\Nuevos
+          C:\Users\User\Animes\Nuevos
         </h2>
       </div>
       
